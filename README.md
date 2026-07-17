@@ -42,4 +42,32 @@ Learn the fundamentals of Python programming.
 
 ## Outcome
 Developed a strong foundation in Python programming by understanding basic concepts and implementing simple programs.
-.
+
+# Day 3 – NumPy
+
+## Objective
+Learn the fundamentals of NumPy, including array creation, mathematical operations, and array calculations.
+
+## Topics Covered
+- Introduction to NumPy
+- Creating NumPy Arrays
+- Array Indexing and Slicing
+- Mathematical Operations
+- Array Statistics (Sum, Mean, Max, Min)
+- Reshaping Arrays
+
+## Tasks Completed
+- Installed and imported the NumPy library.
+- Created one-dimensional and two-dimensional arrays.
+- Performed arithmetic operations on arrays.
+- Calculated sum, mean, maximum, and minimum values.
+- Practiced array reshaping and indexing.
+
+## Programs Created
+- Creating Arrays
+- Mathematical Operations
+- Array Statistics
+- Reshaping Arrays
+
+## Outcome
+Understood NumPy fundamentals and learned how to perform efficient numerical computations using arrays.
