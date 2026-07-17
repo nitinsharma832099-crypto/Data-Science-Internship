@@ -71,3 +71,28 @@ Learn the fundamentals of NumPy, including array creation, mathematical operatio
 
 ## Outcome
 Understood NumPy fundamentals and learned how to perform efficient numerical computations using arrays.
+## Day4
+What I Did
+
+Imported the Pandas library to enable data manipulation and analysis.
+
+python   import pandas as pd
+
+Loaded the dataset into a DataFrame using read_csv().
+
+python   df = pd.read_csv("amazon.csv")
+
+Viewed the rows of the dataset using head() and tail() to inspect the first and last few records.
+Viewed the columns and shape of the dataset to understand its structure. The dataset contains 16 columns:
+product_id, product_name, category, discounted_price, actual_price, discount_percentage, rating, rating_count, about_product, user_id, user_name, review_id, review_title, review_content, img_link, product_link.
+Checked dataset information using df.info() and df.describe() to understand data types, non-null counts, and summary statistics.
+Checked for missing values using df.isnull().sum().
+
+Key Observations
+
+The dataset is largely clean, with missing values found only in the rating_count column (2 missing entries).
+Columns such as discounted_price, actual_price, discount_percentage, and rating_count are stored as object (text) type instead of numeric, due to currency symbols (₹), percentage signs (%), and comma separators in large numbers.
+These formatting issues will need to be addressed in Day 5 – Data Cleaning.
+
+Expected Outcome
+✅ Dataset successfully loaded and explored using Pandas.
