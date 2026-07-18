@@ -96,3 +96,6 @@ These formatting issues will need to be addressed in Day 5 – Data Cleaning.
 
 Expected Outcome
 ✅ Dataset successfully loaded and explored using Pandas.
+
+## Day 5
+Cleaned the Amazon Sales dataset: identified 2 missing values in rating_count and filled them with the median. Checked for duplicate records based on product_id and found none. Corrected data types for discounted_price, actual_price, discount_percentage, rating, and rating_count — converting them from text to numeric by removing currency symbols (₹), percentage signs (%), and commas. Final dataset is fully clean with zero missing values and correct data types, ready for analysis.
