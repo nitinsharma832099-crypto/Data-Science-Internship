@@ -99,3 +99,7 @@ Expected Outcome
 
 ## Day 5
 Cleaned the Amazon Sales dataset: identified 2 missing values in rating_count and filled them with the median. Checked for duplicate records based on product_id and found none. Corrected data types for discounted_price, actual_price, discount_percentage, rating, and rating_count — converting them from text to numeric by removing currency symbols (₹), percentage signs (%), and commas. Final dataset is fully clean with zero missing values and correct data types, ready for analysis.
+
+## Day 6
+Task: Filter rows, select columns and sort the dataset using Pandas.
+What I Did: Selected specific columns from the dataset, filtered rows based on conditions (e.g., rating above 4.5, discount above 50%), combined multiple filter conditions using &, and sorted the dataset using sort_values() to identify top-rated and highly discounted products.
