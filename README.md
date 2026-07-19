@@ -103,3 +103,8 @@ Cleaned the Amazon Sales dataset: identified 2 missing values in rating_count an
 ## Day 6
 Task: Filter rows, select columns and sort the dataset using Pandas.
 What I Did: Selected specific columns from the dataset, filtered rows based on conditions (e.g., rating above 4.5, discount above 50%), combined multiple filter conditions using &, and sorted the dataset using sort_values() to identify top-rated and highly discounted products.
+
+## Day 7 – Basic Business Insights
+Task: Calculate total, average, minimum, maximum and count values from the dataset.
+What I Did: Used Pandas aggregate functions (sum, mean, min, max, count) on key numeric columns of the dataset, and used describe() to generate an overall statistical summary.
+Expected Outcome: Basic business insights generated successfully.
