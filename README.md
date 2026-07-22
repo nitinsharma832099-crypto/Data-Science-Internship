@@ -108,3 +108,26 @@ What I Did: Selected specific columns from the dataset, filtered rows based on c
 Task: Calculate total, average, minimum, maximum and count values from the dataset.
 What I Did: Used Pandas aggregate functions (sum, mean, min, max, count) on key numeric columns of the dataset, and used describe() to generate an overall statistical summary.
 Expected Outcome: Basic business insights generated successfully.
+## Day 8 – Data Visualization
+
+Task: Create bar charts, line charts and pie charts using Matplotlib.
+
+What I Did: Created a bar chart comparing product counts across top categories, a line chart showing average rating by category, a pie chart showing category share among the top 5 categories, and a bar chart comparing ratings across the top 10 highest-rated products.
+## Day 9 – Mini Dashboard
+Task: Combine charts and analysis into a single Jupyter Notebook dashboard.
+
+What I Did: Combined the bar chart, line chart, pie chart, and an additional bar chart into a single 2x2 grid using Matplotlib's subplots(). Added a written analysis summarizing key takeaways from the visualizations, bringing together insights and charts from previous days into one consolidated dashboard.
+## Day 10 – Export Data
+
+Task: Export the cleaned dataset to a new CSV file.
+## Day 11 – Business Insights
+
+Task: Write at least five observations from the dataset based on your analysis.
+
+What I Did: Analyzed the cleaned dataset to generate business insights, including highest/lowest buying categories, discount percentage range, rating range, average rating, average discount, and the correlation between discount percentage and rating (found to be very weak, -0.16), showing that discount level does not reliably predict a product's rating.
+
+What I Did: Used df.to_csv() to export the cleaned Amazon Sales dataset to a new CSV file (cleaned_amazon_sales.csv), with index=False to avoid adding an extra unnecessary index column. Verified the export by reloading the file and checking its structure.
+## Conclusion
+I successfully completed all 12 days of this internship task, gaining hands-on experience 
+in the complete data analysis workflow — from loading and cleaning raw data to generating 
+visualizations and business insights using Python, Pandas, and Matplotlib.
